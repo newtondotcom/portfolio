@@ -19,16 +19,19 @@ export const DATA = {
     "Nuxt",
     "Typescript",
     "Node.js",
+    "React Native",
     "Python",
     "Django",
     "Go",
     "Postgres",
     "MySQL",
+    "Firebase",
     "Docker",
     "Kubernetes",
     "Java",
     "C++",
     "Ada",
+    "Linux"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -218,7 +221,6 @@ export const DATA = {
         "PostgreSQL",
         "Prisma",
         "TailwindCSS",
-        "Stripe",
         "Shadcn UI",
         "Magic UI",
       ],
@@ -325,14 +327,13 @@ export const DATA = {
       description:
         "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
       technologies: [
-        "Next.js",
+        "Nuxt",
         "Typescript",
         "PostgreSQL",
         "Prisma",
         "Supabase (realtime)",
         "TailwindCSS",
         "Shadcn UI",
-        "Magic UI",
         "OIDC",
       ],
       links: [
@@ -408,8 +409,14 @@ export const DATA = {
       description:
         "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
       technologies: [
-        "Python",
-        "Go"
+        "Nuxt",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "Minio S3",
+        "TailwindCSS",
+        "Shadcn UI",
+        "OIDC",
       ],
       links: [
         {
