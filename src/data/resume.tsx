@@ -89,6 +89,7 @@ export const DATA = {
       title: "Consultant",
       logoUrl: "/n7c.png",
       start: "Apr 2023",
+      end : "",
       description:
       "Conducted technical and commercial studies, delivered technical training, and provided expert advice on technologies, architecture, and project hosting to ensure successful implementation and optimization.",
     },
