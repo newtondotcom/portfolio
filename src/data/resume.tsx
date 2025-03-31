@@ -2,15 +2,15 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, Presentation } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
+  name: "Robin Augereau",
+  initials: "RA",
   url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  location: "Toulouse, France",
+  locationLink: "https://www.google.com/maps/place/Toulouse",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Cybersecurity and Software Engineer turning Entrepreneur. I love building things and helping people.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "Starting in 2026, I will be working as a full time Engineer. In the past, [I pursued a double degree in computer science then in cybersecurity](/#education) and [interned at big tech french companies](/#work). During my school years, I had the pleasure to be a member of [AEN7 and N7 CONSULTING](/#non-profits).",
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -73,7 +73,7 @@ export const DATA = {
       company: "Thales Services Numériques",
       href: "https://www.thalesgroup.com/fr",
       badges: [],
-      location: "Remote",
+      location: "Toulouse, France",
       title: "HPC GPU IA Intern",
       logoUrl: "/atomic.png",
       start: "May 2021",
@@ -85,7 +85,7 @@ export const DATA = {
       company: "N7 Consulting",
       badges: [],
       href: "https://n7consulting.fr/",
-      location: "Remote",
+      location: "Toulouse, France",
       title: "Consultant",
       logoUrl: "/n7c.png",
       start: "January 2021",
@@ -97,7 +97,7 @@ export const DATA = {
       company: "ACOSS",
       href: "https://www.urssaf.org/accueil/espace-medias/communiques-et-dossiers-de-press/dossiers-de-presse/l-acoss%2C-caisse-nationale-des-ur.html",
       badges: [],
-      location: "Santa Clara, CA",
+      location: "Paris, France",
       title: "Big Data Intern",
       logoUrl: "/acoss.png",
       start: "January 2020",
@@ -109,7 +109,7 @@ export const DATA = {
       company: "Malakoff Humanis",
       href: "https://www.malakoffhumanis.com/",
       badges: [],
-      location: "San Jose, CA",
+      location: "Paris, France",
       title: "Full Stack Developer Intern",
       logoUrl: "/mh.png",
       start: "January 2019",
@@ -131,6 +131,18 @@ export const DATA = {
       end: "April 2020",
       description:
         "Organized the 2024 Integration Weekend, which attracted 500 participants, and took responsibility for initiatives focused on the prevention of sexual and gender-based violence, while actively participating in dozens of related events.",
+    },
+    {
+      company: "Pépite Écrin",
+      badges: [],
+      href: "https://pepite-ecrin.pepitizy.fr/fr",
+      location: "Remote",
+      title: "National Student-Entrepreneur Status",
+      logoUrl: "/n7c.png",
+      start: "January 2021",
+      end: "April 2021",
+      description:
+      "As a recipient of the National Student-Entrepreneur Status managed by PÉPITE, I benefited from comprehensive support and resources tailored to my entrepreneurial journey. This status allowed me to receive personalized guidance, obtain exemptions for class hours, and transform my professional internship period into a dedicated phase for my entrepreneurial project. Throughout this experience, I attended numerous workshops, engaged with accomplished entrepreneurs, and networked with members of investment funds, all of which enriched my understanding and prepared me for the challenges of entrepreneurship.",
     },
     {
       company:  "La fresque de la diversité",
