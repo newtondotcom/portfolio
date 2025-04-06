@@ -31,7 +31,7 @@ export const DATA = {
     "Java",
     "C++",
     "Ada",
-    "Linux"
+    "Linux",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -78,11 +78,10 @@ export const DATA = {
       badges: [],
       location: "Toulouse, France",
       title: "HPC GPU IA Intern",
-      logoUrl: "/atomic.png",
+      logoUrl: "/experiences/thales.png",
       start: "Mar 2025",
       end: "Sep 2025",
-      description:
-        "In progress.",
+      description: "In progress.",
     },
     {
       company: "N7 Consulting",
@@ -90,11 +89,11 @@ export const DATA = {
       href: "https://n7consulting.fr/",
       location: "Toulouse, France",
       title: "Consultant",
-      logoUrl: "/n7c.png",
+      logoUrl: "/experiences/n7c.png",
       start: "Apr 2023",
-      end : "",
+      end: "Present",
       description:
-      "Conducted technical and commercial studies, delivered technical training, and provided expert advice on technologies, architecture, and project hosting to ensure successful implementation and optimization.",
+        "Conducted technical and commercial studies, delivered technical training, and provided expert advice on technologies, architecture, and project hosting to ensure successful implementation and optimization.",
     },
     {
       company: "ACOSS",
@@ -102,7 +101,7 @@ export const DATA = {
       badges: [],
       location: "Paris, France",
       title: "Big Data Intern",
-      logoUrl: "/acoss.png",
+      logoUrl: "/experiences/acoss.png",
       start: "Jun 2024",
       end: "Aug 2024",
       description:
@@ -114,7 +113,7 @@ export const DATA = {
       badges: [],
       location: "Paris, France",
       title: "Full Stack Developer Intern",
-      logoUrl: "/mh.png",
+      logoUrl: "/experiences/mh.png",
       start: "Jul 2023",
       end: "Aug 2023",
       description:
@@ -122,14 +121,14 @@ export const DATA = {
     },
   ],
 
-  nonprofit : [
+  nonprofit: [
     {
       company: "AEn7",
       href: "https://www.urssaf.org/accueil/espace-medias/communiques-et-dossiers-de-press/dossiers-de-presse/l-acoss%2C-caisse-nationale-des-ur.html",
       badges: [],
       location: "Toulouse, FR",
       title: "Member Organizer of the Student Bureau",
-      logoUrl: "/aeN7.png",
+      logoUrl: "/nonprofit/aen7.png",
       start: "Apr 2023",
       end: "Apr 2024",
       description:
@@ -141,31 +140,31 @@ export const DATA = {
       href: "https://pepite-ecrin.pepitizy.fr/fr",
       location: "Remote",
       title: "National Student-Entrepreneur Status",
-      logoUrl: "/n7c.png",
+      logoUrl: "/nonprofit/pepite.jpg",
       start: "Feb 2023",
       end: "Feb 2024",
       description:
-      "As a recipient of the National Student-Entrepreneur Status managed by PÉPITE, I benefited from comprehensive support and resources tailored to my entrepreneurial journey. This status allowed me to receive personalized guidance, obtain exemptions for class hours, and transform my professional internship period into a dedicated phase for my entrepreneurial project. Throughout this experience, I attended numerous workshops, engaged with accomplished entrepreneurs, and networked with members of investment funds, all of which enriched my understanding and prepared me for the challenges of entrepreneurship.",
+        "As a recipient of the National Student-Entrepreneur Status managed by PÉPITE, I benefited from comprehensive support and resources tailored to my entrepreneurial journey. This status allowed me to receive personalized guidance, obtain exemptions for class hours, and transform my professional internship period into a dedicated phase for my entrepreneurial project. Throughout this experience, I attended numerous workshops, engaged with accomplished entrepreneurs, and networked with members of investment funds, all of which enriched my understanding and prepared me for the challenges of entrepreneurship.",
     },
     {
-      company:  "La fresque de la diversité",
+      company: "La fresque de la diversité",
       href: "https://www.malakoffhumanis.com/",
       badges: [],
       location: "Toulouse, FR",
       title: "Facilitator",
-      logoUrl: "/diversity.png",
+      logoUrl: "/nonprofit/diversity.png",
       start: "Jan 2023",
       end: "Jan 2024",
       description:
         "In just 3 hours, the collaborative Diversity Mural will teach you about discrimination and the cognitive mechanisms behind it, empowering you to take action.",
     },
     {
-      company:  "Toulouse Hacking Convention 2023 & 2025",
+      company: "Toulouse Hacking Convention 2023 & 2025",
       href: "https://thcon.party/",
       badges: [],
       location: "Toulouse, FR",
       title: "Voluntary Staff",
-      logoUrl: "/diversity.png",
+      logoUrl: "/nonprofit/thcon.jpg",
       start: "Jan 2023",
       end: "Jan 2024",
       description:
@@ -178,7 +177,7 @@ export const DATA = {
       school: "TLS-SEC - ENSEEIHT & INSA Toulouse",
       href: "https://tls-sec.github.io/",
       degree: "Cybersecurity Double Degree",
-      logoUrl: "/tlssec.jpeg",
+      logoUrl: "/education/tlssec.jpeg",
       start: "2024",
       end: "2025",
     },
@@ -186,23 +185,23 @@ export const DATA = {
       school: "ENSEEIHT",
       href: "https://www.enseeiht.fr/",
       degree: "Computer Science (Architecutre, System, Network)",
-      logoUrl: "/waterloo.png",
+      logoUrl: "/education/enseeiht.jpeg",
       start: "2022",
       end: "2025",
     },
     {
       school: "Lycée Jeanne d'Albret",
-      href: "/jeanne_albret.jpeg",
+      href: "https://lyc-albret-st-germain-laye.ac-versailles.fr/",
       degree: "Preparatory Class for the Grandes Ecoles PCSI - PSI",
-      logoUrl: "/laurier.png",
+      logoUrl: "/education/jeanne_albret.jpeg",
       start: "2020",
       end: "2022",
     },
     {
       school: "Lycée Jeanne d'Albret",
-      href: "/jeanne_albret.jpeg",
+      href: "https://lyc-albret-st-germain-laye.ac-versailles.fr/",
       degree: "Scientific Baccalaureate",
-      logoUrl: "/ib.png",
+      logoUrl: "/education/jeanne_albret.jpeg",
       start: "2017",
       end: "2020",
     },
@@ -235,7 +234,6 @@ export const DATA = {
           href: "https://github.com/newtondotcom/droneinside",
           icon: <Icons.github className="size-3" />,
         },
-        
       ],
       image: "",
       video:
@@ -280,14 +278,16 @@ export const DATA = {
           type: "Web App Source",
           href: "https://github.com/newtondotcom/yogocap-nuxt",
           icon: <Icons.github className="size-3" />,
-        },        {
+        },
+        {
           type: "Back End Source",
           href: "https://github.com/newtondotcom/yogocap-back",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://github.com/newtondotcom/yogocap-landing/raw/refs/heads/main/public/video.mp4",
+      video:
+        "https://github.com/newtondotcom/yogocap-landing/raw/refs/heads/main/public/video.mp4",
     },
     {
       title: "FrameIt",
@@ -366,7 +366,7 @@ export const DATA = {
         "Typescript",
         "TailwindCSS",
         "Python",
-        "Shadcn UI"
+        "Shadcn UI",
       ],
       links: [
         {
@@ -386,10 +386,7 @@ export const DATA = {
       active: true,
       description:
         "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Python",
-        "Go"
-      ],
+      technologies: ["Python", "Go"],
       links: [
         {
           type: "Source",
@@ -429,7 +426,6 @@ export const DATA = {
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
-   
   ],
   hackathons: [
     {

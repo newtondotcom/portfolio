@@ -100,7 +100,7 @@ export default function Page() {
       <section id="non-profits">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">Work Experience</h2>
+            <h2 className="text-xl font-bold">Nonprofit experience</h2>
           </BlurFade>
           {DATA.nonprofit.map((nonprofit, id) => (
             <BlurFade
