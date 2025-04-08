@@ -10,14 +10,14 @@ export const DATA = {
   description:
     "Cybersecurity and Software Engineer turning Entrepreneur. I love building things and helping people.",
   summary:
-    "Starting in 2026, I will be working as a full time Engineer. In the past, [I pursued a double degree in computer science then in cybersecurity](/#education) and [interned at big tech french companies](/#work). During my school years, I had the pleasure to be a member of [AEN7 and N7 CONSULTING](/#non-profits).",
+    "Starting in 2026, I will be working as a full-time Engineer. In the past, [I pursued a double degree in computer science and then in cybersecurity](/#education) and [interned at big tech French companies](/#work). During my school years, I had the pleasure of being a member of [AEN7 and N7 CONSULTING](/#non-profits).",
   avatarUrl: "/me.png",
   skills: [
     "React",
     "Vue",
     "Next.js",
     "Nuxt",
-    "Typescript",
+    "TypeScript",
     "Node.js",
     "React Native",
     "Python",
@@ -32,6 +32,18 @@ export const DATA = {
     "C++",
     "Ada",
     "Linux",
+    "Prisma",
+    "TailwindCSS",
+    "Shadcn UI",
+    "Magic UI",
+    "Stripe",
+    "Lemon Squeezy",
+    "Supabase (realtime)",
+    "OIDC",
+    "OAuth",
+    "Minio S3",
+    "Vercel",
+    "GCP"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -45,18 +57,16 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/newtondotcom",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/robin-augereau/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
-      Youtube: {
-        name: "Youtube",
+      YouTube: {
+        name: "YouTube",
         url: "https://dub.sh/dillion-youtube",
         icon: Icons.youtube,
         navbar: true,
@@ -65,19 +75,17 @@ export const DATA = {
         name: "Send Email",
         url: "#",
         icon: Icons.email,
-
         navbar: false,
       },
     },
   },
-
   work: [
     {
-      company: "Thales Services Numériques",
+      company: "Thales",
       href: "https://www.thalesgroup.com/fr",
       badges: [],
       location: "Toulouse, France",
-      title: "HPC GPU IA Intern",
+      title: "HPC GPU AI Intern",
       logoUrl: "/experiences/thales.png",
       start: "Mar 2025",
       end: "Sep 2025",
@@ -105,7 +113,7 @@ export const DATA = {
       start: "Jun 2024",
       end: "Aug 2024",
       description:
-        "Architected and wrote the entire MVP for an integrated data visualization solution, while focusing on sovereign hosting of LLMs for employee use, fraud detection algorithms, and the implementation of a vector database for RAG, utilizing modern technologies and best practices.",
+        "Architected and wrote the entire MVP for an integrated data visualization solution, focusing on sovereign hosting of LLMs for employee use, fraud detection algorithms, and the implementation of a vector database for RAG, utilizing modern technologies and best practices.",
     },
     {
       company: "Malakoff Humanis",
@@ -120,7 +128,6 @@ export const DATA = {
         "Refactored and rewrote the web-based interactive organizational chart code using Java, MySQL, and Angular.",
     },
   ],
-
   nonprofit: [
     {
       company: "AEn7",
@@ -147,7 +154,7 @@ export const DATA = {
         "As a recipient of the National Student-Entrepreneur Status managed by PÉPITE, I benefited from comprehensive support and resources tailored to my entrepreneurial journey. This status allowed me to receive personalized guidance, obtain exemptions for class hours, and transform my professional internship period into a dedicated phase for my entrepreneurial project. Throughout this experience, I attended numerous workshops, engaged with accomplished entrepreneurs, and networked with members of investment funds, all of which enriched my understanding and prepared me for the challenges of entrepreneurship.",
     },
     {
-      company: "La fresque de la diversité",
+      company: "La Fresque de la Diversité",
       href: "https://www.malakoffhumanis.com/",
       badges: [],
       location: "Toulouse, FR",
@@ -163,15 +170,14 @@ export const DATA = {
       href: "https://thcon.party/",
       badges: [],
       location: "Toulouse, FR",
-      title: "Voluntary Staff",
+      title: "Volunteer Staff",
       logoUrl: "/nonprofit/thcon.jpg",
-      start: "Jan 2023",
-      end: "Jan 2024",
+      start: "2023 &",
+      end: "2024 Edition",
       description:
         "The Toulouse Hacking Convention (or THCon) is a cybersecurity conference that brings together hobbyists, professionals, and researchers since 2017 in Toulouse, France. Today, it is an unmissable cybersecurity event in Occitania and beyond. I had the opportunity to help on-site for a few days, assisting the organization team, and also attended conferences out of curiosity.",
     },
   ],
-
   education: [
     {
       school: "TLS-SEC - ENSEEIHT & INSA Toulouse",
@@ -184,7 +190,7 @@ export const DATA = {
     {
       school: "ENSEEIHT",
       href: "https://www.enseeiht.fr/",
-      degree: "Computer Science (Architecutre, System, Network)",
+      degree: "Computer Science (Architecture, System, Network)",
       logoUrl: "/education/enseeiht.jpeg",
       start: "2022",
       end: "2025",
@@ -210,13 +216,13 @@ export const DATA = {
     {
       title: "DroneInside",
       href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "March 2025 - Present",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Developed a website to sell FPV drone services mainly in France. I am the drone pilot and primarily operate indoors to create immersive one-take walkthroughs.",
       technologies: [
         "Next.js",
-        "Typescript",
+        "TypeScript",
         "PostgreSQL",
         "Prisma",
         "TailwindCSS",
@@ -242,13 +248,13 @@ export const DATA = {
     {
       title: "Yogocap",
       href: "https://yogocap.com",
-      dates: "June 2023 - Present",
+      dates: "November 2023 - Present",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "For my first SaaS, I designed and developed an AI auto-generated subtitles platform with subscription plans.",
       technologies: [
         "Nuxt",
-        "Typescript",
+        "TypeScript",
         "PostgreSQL",
         "Prisma",
         "TailwindCSS",
@@ -292,13 +298,13 @@ export const DATA = {
     {
       title: "FrameIt",
       href: "https://frame-it-nu.vercel.app/",
-      dates: "April 2023 - September 2023",
+      dates: "March 2025 - April 2025",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Developed a landing page for a hackathon describing a product that I would sell.",
       technologies: [
         "React",
-        "Typescript",
+        "TypeScript",
         "TailwindCSS",
         "Shadcn UI",
         "Magic UI",
@@ -322,13 +328,13 @@ export const DATA = {
     {
       title: "Coinche",
       href: "https://coinche-game.vercel.app/",
-      dates: "April 2023 - March 2024",
+      dates: "October 2024 - January 2025",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Enjoyed developing a web application to play a French card game named `Coinche`, which is very popular among the [ENSEEIHT](https://www.enseeiht.fr/) students.",
       technologies: [
         "Nuxt",
-        "Typescript",
+        "TypeScript",
         "PostgreSQL",
         "Prisma",
         "Supabase (realtime)",
@@ -355,15 +361,15 @@ export const DATA = {
     {
       title: "Emendo",
       href: "https://numsmo.com/",
-      dates: "April 2023 - March 2024",
+      dates: "August 2023 - Present",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Engineered a complex architecture for `AK-PDB` NGO to build a waste reporting solution including a mobile app, an admin interface (not publicly available), a landing page, and the build of a micro-server with data redundancy and a dedicated GPU for ML inference and training.",
       technologies: [
         "React",
         "React Native",
         "Firebase",
-        "Typescript",
+        "TypeScript",
         "TailwindCSS",
         "Python",
         "Shadcn UI",
@@ -380,34 +386,15 @@ export const DATA = {
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
     {
-      title: "string-art",
-      href: "https://github.com/newtondotcom/string-art",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: ["Python", "Go"],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/newtondotcom/string-art",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    },
-    {
       title: "CoffreTonDoc",
       href: "https://github.com/newtondotcom/CoffreTonDoc",
-      dates: "April 2023 - March 2024",
+      dates: "June 2024 - September 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Initiated an online vault with client-side encryption, based on [ETH](https://fr.wikipedia.org/wiki/Ethereum) blockchain for keys, for ultra-secure storage.",
       technologies: [
         "Nuxt",
-        "Typescript",
+        "TypeScript",
         "PostgreSQL",
         "Prisma",
         "Minio S3",
@@ -433,7 +420,7 @@ export const DATA = {
       dates: "November 23rd - 25th, 2018",
       location: "London, Ontario",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+        "Developed a mobile application that delivered bedtime stories to children using augmented reality.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
