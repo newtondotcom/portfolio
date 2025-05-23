@@ -39,7 +39,7 @@ export default function EnhancedText({
     };
 
     return (
-        <div className="w-full text-center py-4">
+        <div className="w-full text-center py-8">
             <motion.div
                 className={cn(
                     "w-full text-center cursor-pointer text-3xl font-bold",
