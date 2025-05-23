@@ -214,7 +214,8 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "DroneInside",
+      title: "DronInside",
+      key : "droninside",
       href: "https://chatcollect.com",
       dates: "March 2025 - Present",
       active: true,
@@ -247,6 +248,7 @@ export const DATA = {
     },
     {
       title: "Yogocap",
+      key : "yogocap",
       href: "https://yogocap.com",
       dates: "November 2023 - Present",
       active: true,
@@ -297,6 +299,7 @@ export const DATA = {
     },
     {
       title: "FrameIt",
+      key : "frameit",
       href: "https://frame-it-nu.vercel.app/",
       dates: "March 2025 - April 2025",
       active: true,
@@ -327,6 +330,7 @@ export const DATA = {
     },
     {
       title: "Coinche",
+      key : "coinche",
       href: "https://coinche-game.vercel.app/",
       dates: "October 2024 - January 2025",
       active: true,
@@ -360,6 +364,7 @@ export const DATA = {
     },
     {
       title: "Emendo",
+      key : "emendo",
       href: "https://numsmo.com/",
       dates: "August 2023 - Present",
       active: true,
@@ -387,6 +392,7 @@ export const DATA = {
     },
     {
       title: "CoffreTonDoc",
+      key : "coffretondoc",
       href: "https://github.com/newtondotcom/CoffreTonDoc",
       dates: "June 2024 - September 2024",
       active: true,
