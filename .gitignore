@@ -38,3 +38,11 @@ next-env.d.ts
 yarn.lock
 bun.lock
 package-lock.json
+pnpm-lock.yaml
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
