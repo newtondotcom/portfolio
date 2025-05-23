@@ -1,11 +1,9 @@
 export default function TextShimmer() {
     return (
         <div className="flex items-center justify-center">
-            <div className="relative px-4 py-2 overflow-hidden">
-                <h2 className="text-4xl sm:text-3xl font-bold shimmer-text">
+                <h2 className="text-3xl sm:text-4xl shimmer-text font-bold">
                     Check out my latest work
                 </h2>
-            </div>
             <style>{`
                 .shimmer-text {
                     --shimmer-color-start: #334155;
