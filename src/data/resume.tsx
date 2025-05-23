@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Cybersecurity and Software Engineer turning Entrepreneur. I love building things and helping people.",
   summary:
-    "Starting in 2026, I will be working as a full-time Engineer. In the past, [I pursued a double degree in computer science and then in cybersecurity](/#education) and [interned at big tech French companies](/#work). During my school years, I had the pleasure of being a member of [AEN7 and N7 CONSULTING](/#non-profits).",
+    "Starting in 2026, I will be working as a full-time Engineer. In the past, [I pursued a double degree in computer science and cybersecurity](/#education) and [interned at big tech French companies](/#work). During my school years, I had the pleasure of being a member of [AEN7 and N7 CONSULTING](/#non-profits).",
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -38,7 +38,7 @@ export const DATA = {
     "Magic UI",
     "Stripe",
     "Lemon Squeezy",
-    "Supabase (realtime)",
+    "Supabase",
     "OIDC",
     "OAuth",
     "Minio S3",
@@ -85,11 +85,11 @@ export const DATA = {
       href: "https://www.thalesgroup.com/fr",
       badges: [],
       location: "Toulouse, France",
-      title: "HPC GPU AI Intern",
+      title: "IA Ops Engineer Intern",
       logoUrl: "/experiences/thales.png",
       start: "Mar 2025",
       end: "Sep 2025",
-      description: "In progress.",
+      description: "Development of a Chatbot within an HPC support team for a major French client, including the implementation of a RAG (Retrieval-Augmented Generation) system as microservices, inference on GPU and CPU using vllm, and writing tests with MLflow.",
     },
     {
       company: "N7 Consulting",
@@ -196,7 +196,7 @@ export const DATA = {
       end: "2025",
     },
     {
-      school: "Lycée Jeanne d'Albret",
+      school: "Lycée Jeanne d'Albret - CPGE",
       href: "https://lyc-albret-st-germain-laye.ac-versailles.fr/",
       degree: "Preparatory Class for the Grandes Ecoles PCSI - PSI",
       logoUrl: "/education/jeanne_albret.jpeg",
@@ -216,7 +216,7 @@ export const DATA = {
     {
       title: "DronInside",
       key : "droninside",
-      href: "https://chatcollect.com",
+      href: "https://droneinside.vercel.app/",
       dates: "March 2025 - Present",
       active: true,
       description:
@@ -233,7 +233,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://droneinside.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -268,27 +268,22 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Landing Page",
+          type: "Website",
           href: "https://yogocap.com",
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "Web Application",
-          href: "https://app.yogocap.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Landing Page Source",
+          type: "Landing Page",
           href: "https://github.com/newtondotcom/yogocap-landing",
           icon: <Icons.github className="size-3" />,
         },
         {
-          type: "Web App Source",
+          type: "Web App",
           href: "https://github.com/newtondotcom/yogocap-nuxt",
           icon: <Icons.github className="size-3" />,
         },
         {
-          type: "Back End Source",
+          type: "Back End",
           href: "https://github.com/newtondotcom/yogocap-back",
           icon: <Icons.github className="size-3" />,
         },
@@ -335,13 +330,13 @@ export const DATA = {
       dates: "October 2024 - January 2025",
       active: true,
       description:
-        "Enjoyed developing a web application to play a French card game named `Coinche`, which is very popular among the [ENSEEIHT](https://www.enseeiht.fr/) students.",
+        "Enjoyed developing a web application to play a French card game named Coinche, which is very popular among the [ENSEEIHT](https://www.enseeiht.fr/) students.",
       technologies: [
         "Nuxt",
         "TypeScript",
         "PostgreSQL",
         "Prisma",
-        "Supabase (realtime)",
+        "Supabase",
         "TailwindCSS",
         "Shadcn UI",
         "OIDC",
@@ -369,7 +364,7 @@ export const DATA = {
       dates: "August 2023 - Present",
       active: true,
       description:
-        "Engineered a complex architecture for `AK-PDB` NGO to build a waste reporting solution including a mobile app, an admin interface (not publicly available), a landing page, and the build of a micro-server with data redundancy and a dedicated GPU for ML inference and training.",
+        "Engineered a complex architecture for AK-PDB NGO to build a waste reporting solution including a PWA, an admin interface, a landing page, and the build of a micro-server with data redundancy and a dedicated GPU for ML inference and training.",
       technologies: [
         "React",
         "React Native",
